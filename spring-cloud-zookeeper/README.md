@@ -1,17 +1,27 @@
+[Image1]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img1.png
+[Image2]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img2.png
+[Image3]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img3.png
+[Image4]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img4.png
+[Image5]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img5.png
+[Image6]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img6.png
+[Image7]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img7.png
 ## Spring Cloud中使用zookeeper作为服务注册中心
 ### 1.windows环境下安装zookeeper
 #### 下载
 zookeeper官网下载地址
 #### 解压
-[Image1]
+![Image1]
 #### 启动
-zkService.cmd
-配图
+命令：zkService.cmd
+
+![Image2]
 #### 查看节点
-启动zookeeper客户端进行连接：zkCli -server 127.0.0.1:2181
-配图
+另开一个窗口，启动zk客户端：zkCli -server 127.0.0.1:2181
+
+![Image3]
 查看节点：ls /services
-配图
+
+![Image4]
 ### 2.创建Spring Cloud工程，并在zookeeper中注册
 #### maven依赖
 ```
@@ -79,8 +89,9 @@ public class ZookeeperController {
 ### 3.查看注册状态
 #### 在zookeeper中查看节点信息
 命令：ls /services
-配图
+![Image5]
 #### 访问接口查看节点信息
-地址
-配图
-[Image1](https://github.com/zhu-wen/git-for-project-management/blob/master/image/1.png)
+地址:http://localhost:8080/zookeeper/services
+![Image6]
+![Image7]
+
