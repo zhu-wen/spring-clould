@@ -3,14 +3,14 @@
 #### 下载
 zookeeper官网下载地址
 #### 解压
-配图
+[Image1]
 #### 启动
 zkService.cmd
 配图
 #### 查看节点
 启动zookeeper客户端进行连接：zkCli -server 127.0.0.1:2181
 配图
-查看节点：命令
+查看节点：ls /services
 配图
 ### 2.创建Spring Cloud工程，并在zookeeper中注册
 #### maven依赖
@@ -24,11 +24,11 @@ zkService.cmd
 ```
 @SpringBootApplication
 @EnableDiscoveryClient
-public class SpringCloudZookeeperClientAppApplication {
+public class ZkDemoApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(SpringCloudZookeeperClientAppApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(ZkDemoApplication.class, args);
+	}
 }
 ```
 #### 配置文件application.properties
@@ -78,9 +78,9 @@ public class ZookeeperController {
 ```
 ### 3.查看注册状态
 #### 在zookeeper中查看节点信息
-命令
+命令：ls /services
 配图
 #### 访问接口查看节点信息
 地址
 配图
-
+[Image1](https://github.com/zhu-wen/git-for-project-management/blob/master/image/1.png)
