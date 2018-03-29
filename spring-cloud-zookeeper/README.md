@@ -1,10 +1,10 @@
 [Image1]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img1.png
 [Image2]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img2.png
-[Image3]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img3.png
-[Image4]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img4.png
-[Image5]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img5.png
-[Image6]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img6.png
-[Image7]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img7.png
+[Image3]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img3.jpg
+[Image4]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img4.jpg
+[Image5]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img5.jpg
+[Image6]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img6.jpg
+[Image7]:https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img7.jpg
 ## Spring Cloud中使用zookeeper作为服务注册中心
 ### 1.windows环境下安装zookeeper
 #### 下载
@@ -100,5 +100,5 @@ public class ZookeeperController {
 
 ![Image6]
 
-![Image7](https://github.com/zhu-wen/spring-clould/blob/master/spring-cloud-zookeeper/image/img7.png)
+![Image7]
 
