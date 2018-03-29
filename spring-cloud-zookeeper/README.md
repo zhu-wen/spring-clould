@@ -8,7 +8,7 @@
 ## Spring Cloud中使用zookeeper作为服务注册中心
 ### 1.windows环境下安装zookeeper
 #### 下载
-zookeeper官网下载地址
+[zookeeper官网下载地址](http://mirrors.hust.edu.cn/apache/zookeeper/zookeeper-3.4.10/)
 #### 解压
 ![Image1]
 #### 启动
